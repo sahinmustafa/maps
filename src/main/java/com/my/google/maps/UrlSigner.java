@@ -9,7 +9,7 @@ import com.my.google.maps.routing.response.CalculationResponse;
 public class UrlSigner {
 
     public static void main(String[] args) throws Exception {
-        Router router = new Router(new Credentials("wj7u8HJczCJ5SddDyiEi","D8Lvxy_ZuayiyctDsVyFPg"));
+        Router router = new Router(new Credentials("app_id","app_code"));
         CalculationResponse response = router.calculate(new CalculationRequest()
                 .setWayPoint0(39.9578023,32.8561231)
                 .setWayPoint1(39.9548226,32.8518878)
